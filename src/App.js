@@ -9,9 +9,7 @@ function App() {
         <p>
           Edit <code>src/App.js</code> and save to reload.
         </p>
-        hello! welcome to jon-meier.com
-          Learn React
-        </a>
+       hello! welcome to jon-meier.com!
       </header>
     </div>
   );
