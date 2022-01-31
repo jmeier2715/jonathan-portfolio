@@ -6,6 +6,9 @@ const AboutMe = () =>{
             this is about me
             <h1>About Me</h1>
             <p>My Name is Jonathan Meier, I'm a </p>
+            
+
+
         </div>
     )
 }

@@ -9,6 +9,8 @@ const Projects = () =>{
             //brief description of each project
             //maybe a quick screen capture of the project UI
             //hyperlink the title and the image to go to the website */}
+
+
         </div>
     )
 }
