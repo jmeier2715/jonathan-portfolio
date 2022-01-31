@@ -1,5 +1,8 @@
 import logo from './logo.svg';
 import './App.css';
+import AboutMe from './components/AboutMe.js';
+import Projects from './components/Projects.js';
+import Resume from './components/Resume.js';
 
 function App() {
   return (
@@ -7,9 +10,11 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          what's poppin
         </p>
-       hello! welcome to jon-meier.com!
+        <AboutMe/>
+        <Projects/>
+        <Resume/>
       </header>
     </div>
   );
