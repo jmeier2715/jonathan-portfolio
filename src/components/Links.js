@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from 'react'
+import React, {useState} from 'react'
 //need to set this to route jon-meier.com/aboutme
 const Links = () =>{
     return(
