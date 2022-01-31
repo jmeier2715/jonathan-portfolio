@@ -1,4 +1,4 @@
-import React, {useState} from 'react'
+import React from 'react'
 //need to set this to route jon-meier.com/aboutme
 const AboutMe = () =>{
     return(

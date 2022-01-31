@@ -1,10 +1,9 @@
-import logo from './logo.svg';
 import './App.css';
 import AboutMe from './components/AboutMe.js';
 import Projects from './components/Projects.js';
 import Resume from './components/Resume.js';
 import Links from './components/Links.js';
-import { Navbar, Nav } from 'react-bootstrap';
+import { Navbar} from 'react-bootstrap';
 
 function App() {
   return (
