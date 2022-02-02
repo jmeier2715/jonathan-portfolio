@@ -45,3 +45,26 @@ html{
   font-size: 15px;
  color: black;
 }
+
+.title{
+  font-size: 50px;
+  font-weight: bold;
+}
+
+img{
+  width: 40%;
+  height: auto;
+  border-radius: 30%;
+  /* justify-content: center; */
+  /* align-items: center; */
+  /* flex-direction:; */
+  /* display:flex; */
+}
+#navbar{
+  background-color: red;
+  font-size: 15px;
+  font-family: "Monaco", monospace;
+  /* gap: 3%; */
+  color:black;
+
+}
