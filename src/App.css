@@ -2,6 +2,10 @@
   text-align: center;
 }
 
+aboutContent{
+font-size: 1px;
+}
+
 .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -37,11 +41,47 @@
   }
 }
 
-html{
-  scroll-behavior: smooth;
+.obama{
+  font-size: 30px;
 }
 
-.resume{
-  font-size: 15px;
- color: black;
+#aboutContent{
+  font-size: 20px;
+  color: red;
+  border-style:solid;
+  border-color: coral 15px;
+  background-color: yellow;
+}
+
+#contactContent{
+  font-size: 20px;
+  color: red;
+  border-style:solid;
+  border-color: coral 15px;
+  background-color: yellow;
+}
+
+#projectContent{
+  font-size: 20px;
+  color: red;
+  border-style:solid;
+  border-color: coral 15px;
+  background-color: yellow;
+}
+
+.navbar{
+  background-color: green;
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+}
+
+#navChild{
+  padding-right: 15px;
+  padding-bottom: 0px;
+}
+
+#contactChild{
+  padding-right: 15px;
+  padding-bottom: 0px;
 }

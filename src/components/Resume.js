@@ -4,7 +4,7 @@ const Resume = () => {
     return(
         <div>
         <p>
-        this is resume
+        Tech Stack
         </p>
         </div>
 

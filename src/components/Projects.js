@@ -3,8 +3,8 @@ import React from 'react'
 const Projects = () =>{
 
     return(
-        <div>
-           this is projects
+        <div id='projectContent'>
+           Some Projects I've Worked On: 
             {/* //I want to place my projects here
             //brief description of each project
             //maybe a quick screen capture of the project UI

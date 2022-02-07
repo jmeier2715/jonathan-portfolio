@@ -3,23 +3,27 @@ import AboutMe from './components/AboutMe.js';
 import Projects from './components/Projects.js';
 import Resume from './components/Resume.js';
 import Links from './components/Links.js';
-import { Navbar} from 'react-bootstrap';
+import { Navbar, NavLink} from 'react-bootstrap';
 
 function App() {
   return (
     <div className="App">
-       <Navbar bg="primary" variant="dark">
-    hello
+       <Navbar className="navbar">
+    <NavLink id ='navChild'>Jonathan Meier</NavLink>
+    <NavLink id ='navChild'>About Me</NavLink>
+    <NavLink id ='navChild'>My Projects</NavLink>
+    <NavLink id ='navChild'>Connect with Me</NavLink>
   </Navbar>
-      <header className="App-header">
-        <p id="app" class="app">
+        <h1 id="obama" className="obama">
           this is the app component
-        </p>
+        </h1>
+        <div className="myChildren">
         <AboutMe id="aboutMe" class="aboutMe"/>
         <Projects id="projects" class="projects"/>
-        <Resume id="resume" class="resume"/>
+        <Resume id="resume" className="resume"/>
         <Links id="links" class="links"/>
-      </header>
+        </div>
+        
     </div>
   );
 }
